@@ -1,5 +1,4 @@
-I started with this project to practice SecDevOps.
-My notes may not be accurate, complete or even true.
+I started with this project to practice SecDevOps. My notes may not be accurate, complete or even true.
 
 # Pre-commit
 
@@ -12,5 +11,8 @@ Git Hub Desktop https://desktop.github.com/
 * GSM supports MFA for Azure DevOps, Bitbucket, GitHub or GitLab
 * Supports Authorization Code Grant and OAuth Device Authorization Grant flows
 * [GCM Documentation](https://github.com/GitCredentialManager)
+
+### Python
+* [Python in VS Code](https://code.visualstudio.com/docs/python/python-tutorial) 
 
 ## GitLab
