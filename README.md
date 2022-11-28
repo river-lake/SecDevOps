@@ -2,6 +2,10 @@ I started with this project to practice SecDevOps. My notes may not be accurate,
 
 # Pre-commit
 
+## IDE VS Code
+* How to [manage extensions](https://code.visualstudio.com/docs/editor/extension-marketplace) in VS Code
+* How to integrate [semgrep](https://semgrep.dev/docs/extensions/) in pre-commit framework 
+
 ## GitHub
 SecDevOps repository
 Git Hub Desktop https://desktop.github.com/
@@ -15,6 +19,7 @@ Git Hub Desktop https://desktop.github.com/
 ### VS Code
 * [Python in VS Code](https://code.visualstudio.com/docs/python/python-tutorial)
 * [Spell checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
+* Extensions are installed into %USERPROFILE%\.vscode\extensions
 
 ### Rapid risk assessment
 https://github.com/hysnsec/awesome-threat-modelling 
