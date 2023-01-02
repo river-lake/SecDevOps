@@ -4,7 +4,7 @@ I started with this project to practice SecDevOps. My notes may not be accurate,
 
 ## IDE VS Code
 * How to [manage extensions](https://code.visualstudio.com/docs/editor/extension-marketplace) in VS Code
-* How to integrate [semgrep](https://semgrep.dev/docs/extensions/) in pre-commit framework 
+* How to integrate [semgrep](https://semgrep.dev/docs/extensions/) in pre-commit framework
 
 ## GitHub
 SecDevOps repository
@@ -22,14 +22,19 @@ Git Hub Desktop https://desktop.github.com/
 * Extensions are installed into %USERPROFILE%\.vscode\extensions
 
 ### Rapid risk assessment
-https://github.com/hysnsec/awesome-threat-modelling 
+https://github.com/hysnsec/awesome-threat-modelling
 
 #### Slack
 * [Initial risk assessment](https://github.com/slackhq/goSDL/blob/master/www/sdl/riskassessment.json)
 * Component survey
 * Based on answers to the component survey, a checklist is generated, use [Checklist for Jira plugin](https://marketplace.atlassian.com/apps/1211562/checklist-for-jira)
 
-#### [scc](https://github.com/boyter/scc) 
+#### [scc](https://github.com/boyter/scc)
 
+#### Pre-Commit Framework
+* Install framework: pip install pre-commit
+* Add .pre-commit-config.yaml to the root directory of a repo
+* Generated a sample config using [pre-commit sample-config](https://pre-commit.com/)
+* Run in repo: pre-commit install
 
 ## GitLab
