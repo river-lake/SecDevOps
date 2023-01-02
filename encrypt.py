@@ -7,13 +7,14 @@ from Crypto import Random
 # iv = Random.get_random_bytes(AES.block_size)
 iv = bytes(AES.block_size)
 
-# A symmetric key must be an unpredictable number and it cannot be hardcoded 
+# A symmetric key must be an unpredictable number and it cannot be hardcoded
 # key = Random.get_random_bytes(AES.block_size)
 key = bytes(AES.block_size)
 
-data = b'secret data'
+data = b"secret data"
 
 raw = bytes(Padding.pad(data_to_pad=data, block_size=AES.block_size))
 cipher = AES.new(key, AES.MODE_CBC, iv)
 
+print("The encrypted input")
 print(base64.b64encode(iv + cipher.encrypt(raw)))
